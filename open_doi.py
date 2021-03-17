@@ -1,3 +1,9 @@
+''' Open DOI
+    Version 1.0.0 (17 March 2021)
+    Copyright (c) 2021 Evgenii Shirokov
+    MIT License
+'''
+
 import sublime
 import sublime_plugin
 import webbrowser
