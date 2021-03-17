@@ -1,12 +1,12 @@
 # Open DOI
 
-This is a package for [Sublime Text](https://www.sublimetext.com/). It opens digital object identifiers (DOIs) as URLs in your browser.
+This is a&nbsp;package for [Sublime Text](https://www.sublimetext.com/). It opens digital object identifiers (DOIs) as URLs in your browser.
 
 ## Usage
 
-If a DOI looks like `https://doi.org/10.1103/PhysRevLett.116.061102`, Sublime Text allows you to open it in a browser directly as an URL. In this case, you do not need to use this package.
+If a&nbsp;DOI looks like `https://doi.org/10.1103/PhysRevLett.116.061102`, Sublime Text allows you to open it in a&nbsp;browser directly as an URL. In this case, you do not need to use this package.
 
-But if a DOI looks like `10.1103/PhysRevLett.116.061102`, this package should help you. Select such a DOI and click `Open DOI` from the context menu. Then the selected DOI will be opened in your browser.
+But if a&nbsp;DOI looks like `10.1103/PhysRevLett.116.061102`, this package should help you. Select such a&nbsp;DOI and click `Open DOI` from the context menu. Then the selected DOI will be opened in your browser.
 
 Multiple selection is supported: if you select multiple DOIs, they will be opened as separate URLs.
 

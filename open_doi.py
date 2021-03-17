@@ -10,13 +10,13 @@ import webbrowser
 
 
 class OpenDoiCommand(sublime_plugin.TextCommand):
-    """Open the selected text as DOI link in your browser."""
+    """Open the selected DOI as an URL in your browser."""
     def run(self, edit):
-        queries = []
+        opened = False
         for region in self.view.sel():
-            if not region.empty():
-                queries.append(self.view.substr(region))
-        for doi in queries:
-            doi = doi.strip()
+            doi = self.view.substr(region).strip()
             if doi.startswith('10.') and ('/' in doi):
                 webbrowser.open("https://doi.org/" + doi)
+                opened = True
+        if not opened:
+            sublime.status_message("Wrong DOI syntax!")
