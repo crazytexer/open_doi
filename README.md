@@ -22,7 +22,9 @@ It is possible to install this package manually as well.
 
 ## Changelog
 
-* Version 1.0.1 (2021-03-20): update README.md
+* Version 1.0.2 (2021-03-20): correct README.md
+
+* Version 1.0.1 (2021-03-20): add is_visible() check
 
 * Version 1.0.0 (2021-03-17): initial release
 
@@ -30,7 +32,7 @@ It is possible to install this package manually as well.
 
 **Open DOI**
 
-Version 1.0.1 (2021-03-20)
+Version 1.0.2 (2021-03-20)
 
 Copyright (c) 2021 Evgenii Shirokov
 
