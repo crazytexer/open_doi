@@ -1,5 +1,5 @@
 ''' Open DOI
-    Version 1.0.0 (17 March 2021)
+    Version 1.0.1 (2021-03-20)
     Copyright (c) 2021 Evgenii Shirokov
     MIT License
 '''

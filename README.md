@@ -16,19 +16,21 @@ If your selection does not match the basic DOI [syntax](https://www.doi.org/doi_
 
 ## Installation
 
-If/when this package is added to the Package Control [list](https://packagecontrol.io/browse), it is recommended to install it using [Package Control](https://packagecontrol.io/): press `Ctrl+Shift+P` (Win, Linux) or `Cmd+Shift+P` (Mac) and type `Package Control: Install Package` in the Command Palette. Then select `Open DOI` from the list.
+It is recommended to install this package using [Package Control](https://packagecontrol.io/): type `Package Control: Install Package` in the Command Palette and select `Open DOI` from the list.
 
 It is possible to install this package manually as well.
 
 ## Changelog
 
-* Version 1.0.0 (17 March 2021): initial release
+* Version 1.0.1 (2021-03-20): update README.md
+
+* Version 1.0.0 (2021-03-17): initial release
 
 ----------
 
 **Open DOI**
 
-Version 1.0.0 (17 March 2021)
+Version 1.0.1 (2021-03-20)
 
 Copyright (c) 2021 Evgenii Shirokov
 
