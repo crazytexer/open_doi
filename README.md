@@ -16,9 +16,9 @@ If your selection does not match the basic DOI [syntax](https://www.doi.org/doi_
 
 ## Installation
 
-It is recommended to install it using [Package Control](https://packagecontrol.io/): press `Ctrl+Shift+P` (Win, Linux) or `Cmd+Shift+P` (Mac) and type `Package Control: Install Package` in the Command Palette. Then select `Open DOI` from the list.
+If/when this package is added to the Package Control [list](https://packagecontrol.io/browse), it is recommended to install it using [Package Control](https://packagecontrol.io/): press `Ctrl+Shift+P` (Win, Linux) or `Cmd+Shift+P` (Mac) and type `Package Control: Install Package` in the Command Palette. Then select `Open DOI` from the list.
 
-Alternatively, download files `Context.sublime-menu`, `Default.sublime-commands`, `LICENSE`, `open_doi.py`, and `README.md` manually, put them into a ZIP archive, and rename this archive to `Open DOI.sublime-package`. After that, run Sublime Text and click on `Preferences / Browse Packages...`. File Explorer should be opened after that. In there, navigate one directory up, open `Installed Packages` directory, and put `Open DOI.sublime-package` file into it.
+It is possible to install this package manually as well.
 
 ## Changelog
 
