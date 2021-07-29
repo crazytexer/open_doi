@@ -1,5 +1,5 @@
 ''' Open DOI
-    Version 1.0.2 (2021-03-20)
+    Version 1.0.3 (2021-07-30)
     Copyright (c) 2021 Evgenii Shirokov
     MIT License
 '''
@@ -10,7 +10,7 @@ import webbrowser
 
 
 class OpenDoiCommand(sublime_plugin.TextCommand):
-    '''Open the DOI, selected in Sublime Text, as an URL in your browser.'''
+    '''Open the DOI/shortDOI, selected in Sublime Text, in your browser.'''
 
     doi_list = []
 
@@ -22,6 +22,7 @@ class OpenDoiCommand(sublime_plugin.TextCommand):
         OpenDoiCommand.doi_list.clear()
         for selection in self.view.sel():
             string = self.view.substr(selection).strip()
-            if string.startswith('10.') and ('/' in string):
+            if (string.startswith('10.') and ('/' in string)) \
+               or string.startswith('10/'):
                 OpenDoiCommand.doi_list.append(string)
         return OpenDoiCommand.doi_list != []
